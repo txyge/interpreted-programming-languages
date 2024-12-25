@@ -1,0 +1,20 @@
+[
+    {
+        "client_id": 1,
+        "name": "Иван Иванов",
+        "email": "ivan@example.com",
+        "phone": "1234567890"
+    },
+    {
+        "client_id": 2,
+        "name": "Петр Петров",
+        "email": "petr@example.com",
+        "phone": "0987654321"
+    },
+    {
+        "client_id": 3,
+        "name": "Светлана Сидорова",
+        "email": "svetlana@example.com",
+        "phone": "1122334455"
+    }
+]

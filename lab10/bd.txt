@@ -1,0 +1,20 @@
+### Структура таблиц
+- Clients:
+  - client_id (INTEGER, PRIMARY KEY)
+  - name (TEXT)
+  - email (TEXT)
+  - phone (TEXT)
+
+- Policies:
+  - policy_id (INTEGER, PRIMARY KEY)
+  - client_id (INTEGER, FOREIGN KEY)
+  - policy_type (TEXT)
+  - start_date (DATE)
+  - end_date (DATE)
+
+- Claims:
+  - claim_id (INTEGER, PRIMARY KEY)
+  - policy_id (INTEGER, FOREIGN KEY)
+  - claim_date (DATE)
+  - amount (REAL)
+  - status (TEXT)
